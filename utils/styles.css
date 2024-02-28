@@ -1,25 +1,89 @@
-@include color-mode(dark) {
-
 header{
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center; 
-    background-color: bisque;   
+    background-color: #5DADE2 ;
+    color: beige;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
 }
-.parent {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;  
-    }
+h2{
+    text-align: center;
+    margin:25px;
+}
+form{
+    border-radius: 10px;
+    margin:25px
+}
+div.contenedorForm{
+    color: beige;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #5DADE2;
+}
+label{
+    margin-top: 15px;
+}
+div.contenedor1{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+section.contIzq{
+
+    width:60%;
+    margin:5px;
+    border-radius: 10px;
+    background-color: #5DADE2;
+}
+section.contDer{
+    width:40%;
+    margin:5px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #5DADE2;
+    color: beige;
+
+}
+h2.listaParaEmpleado{
+    margin: 25px;
+    color: beige;
+}
+li.list-group-item{
+   margin: 6px;
+   color: beige;
+   background-color: #a8acc486;
+   border-radius: 10px;
+   border-style: solid;
+  
+}
+article.col{
+    color: beige;
+    background-color: #5DADE2;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #07042b86;
+}
+h3{
+   text-align: center;
+   margin: 5px;
+}
+img {
+    margin: 5px;
+    text-align: center;
+
     
-    .div1 { 
-grid-area: 1 / 1 / 6 / 4; 
-background-color: aqua;
 }
-    .div2 { 
-grid-area: 1 / 4 / 6 / 6; 
-background-color: brown;
-}
+section.contadores{
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: #5DADE2;
+    margin-bottom: 15px ;
+    color: beige;
+    border-style: solid;
 }
