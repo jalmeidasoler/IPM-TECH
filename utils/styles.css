@@ -1,4 +1,6 @@
 header{
+    margin-left: 60px;
+    margin-right: 60px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding-top: 10px;
@@ -31,7 +33,6 @@ label{
 div.contenedor1{
     display: flex;
     width: 100%;
-    margin: 10px;
 }
 section.contIzq{
 
@@ -86,4 +87,10 @@ section.contadores{
     margin-bottom: 15px ;
     color: beige;
     border-style: solid;
+}
+footer{
+    margin-top:10px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
